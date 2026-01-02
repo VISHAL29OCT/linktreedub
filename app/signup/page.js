@@ -80,7 +80,7 @@ const handleSubmit = (e) => {
           {/* Social buttons (optional placeholder) */}
         <div className="butttons flex flex-col gap-4">
 
-          <button className="border py-3 rounded-md w-full">
+          <button className="border py-3 rounded-md w-full flex items-center justify-center gap-3">
               <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="-0.5 0 48 48" version="1.1">
 
@@ -106,7 +106,7 @@ const handleSubmit = (e) => {
            <span>Continue with Google</span>
           </button>
 
-           <button className="border py-3 rounded-md w-full">
+           <button className="border py-3 rounded-md w-full flex items-center justify-center gap-3">
                  <svg className="h-6 w-6 mr-2" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
             viewBox="-1.5 0 20 20" version="1.1">
             <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
